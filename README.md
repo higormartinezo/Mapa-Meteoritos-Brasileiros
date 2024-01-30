@@ -1,7 +1,7 @@
 # Mapa: Meteoritos Brasileiros
 
 ## Contexto científico 
-Os meteoritos caem aleatoriamente pelo planeta Terra, no entanto, quando comparado com países que possuem extensão territorial similar, o Brasil possui um número pequeno de exemplares catalogados. Isso se deve à diversos fatores, educativos, culturais e até mesmo naturais. Este mapa foi gerado em R com o objetivo de comparar o número de meteoritos catalogados em cada UF.Versão online: https://rpubs.com/higormartinez/mapa-meteoritos-brasileiros
+Os meteoritos caem aleatoriamente pelo planeta Terra, no entanto, quando comparado com países que possuem extensão territorial similar, o Brasil possui um número pequeno de exemplares catalogados. Isso se deve à diversos fatores, educativos, culturais e até mesmo naturais. Este mapa foi gerado em R com o objetivo de comparar o número de meteoritos catalogados em cada UF. Versão online: https://rpubs.com/higormartinez/mapa-meteoritos-brasileiros
 
 
 ![Rplot01](https://github.com/higormartinezo/mapa-meteoritos-brasileiros/assets/73290985/f4af1d16-3f8e-42bd-89a0-959d4353c1fc)
