@@ -8,12 +8,14 @@ Os meteoritos caem aleatoriamente pelo planeta Terra, no entanto, quando compara
 
 
 ## Arquivos 
-- A pasta "mapa" contém a planilha com o número de meteoritos catalogados em cada UF juntamente com os arquivos obtidos pelo site do IBGE com as informações cartográficas para gerar o mapa.
+- A pasta "mapa" contém os arquivos obtidos pelo site do IBGE com as informações cartográficas para gerar o mapa.
+  
+- O arquivo "total_meteorites_uf.xlsx" possui a lista de estados brasileiros com o número total de meteoritos catalogados.
 
-- O R Script "Mapa Meteoritos Brasileiros" contém o código para executar o mapa utilizando os arquivos da pasta "mapa".
+- O R Script "Mapa Meteoritos Brasileiros" contém o código para executar o mapa utilizando os arquivos da pasta "mapa" juntamente com a base de dados em Excel. 
 
 ## Observações 
-- Após baixar os arquivos, verifique no R Script se o diretório do mapa e dos dados estão corretos:
+-  Para reproduzir o mapa no R, após baixar os arquivos, verifique no R Script se o diretório do mapa e dos dados estão de acordo com o local que você salvou os arquivos, caso necessário modifique as linhas com o diretório apropriado:
 
 mapa <- readOGR("~/Desktop/mapa", "BR_UF_2021")
 
